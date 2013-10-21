@@ -1,20 +1,13 @@
-$(document).ready(function() {
-function processImages(response) {
-        for (var i = 0; i < response.data.length; i++) {
-                var url = response.data[i].images.thumbnail.url;
-                $("#images").append("<img src='" + url + "'>");
-        }
-}
-$("#addTodoBtn").click(function(funct){
+$(document).ready(function(){
+  console.log('ouybouy')
+function hejtest() {
 
-var hashtags = $('#hashtag').val();
+  var twitterAPI = "https://free-ec2.scraperwiki.com/cvdpl6y/ebf52a60f3514fc/sql/?q=select%20%0A%09id_str%2C%0A%09tweet_url%2C%0A%09created_at%2C%0A%20%20%20%20text%2C%0A%20%20%20%20hashtags%0Afrom%20tweets%0A--%20where%20created_at%20%3E%20%0Aorder%20by%20tweet_url%0Alimit%2020%0A";
+  $.getJSON( twitterAPI, {
+  });
+  
+};
 
-var url = "https://api.instagram.com/v1/tags/" + hashtags + "/media/recent?access_token=20179208.f59def8.9e2295a1135b4490984ad305c45f14d0&callback=?"
- $.getJSON(url, processImages);
- 
-
-});
-
-$("images img").remove();
-
+hejtest();
+  
 });
