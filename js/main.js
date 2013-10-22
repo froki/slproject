@@ -6,6 +6,15 @@ $.getJSON(url, whatever);
 function whatever(data) {
 var i = 0;
 for ( var i = 0; i < data.length; i++){
- console.log(data[i].text);
+ // console.log(data[i].text);
+ response = data[i].text; 
+ response.toString();
+ lookUp = "kista";
+
+if (response.indexOf(lookUp) != -1)
+{
+  console.log("Works");
+}
+
 }}
 });
