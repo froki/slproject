@@ -11,6 +11,7 @@ for ( var i = 0; i < data.length; i++){
  response.toString();
  lookUp = "kista";
 
+
 if (response.indexOf(lookUp) != -1)
 {
   console.log("Works");
@@ -18,3 +19,10 @@ if (response.indexOf(lookUp) != -1)
 
 }}
 });
+
+
+
+stations = {
+	fridhemsplan: { x: 394, y: 321 },
+	telefonplan: { x: 331, y: 475 }
+}
