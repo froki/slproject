@@ -1,8 +1,6 @@
-.marker {
-	width: 15px;
-	height: 15px;
-	background: green;
-	border-radius: 50px;
+.pin{
+	width: 230px;
+	height: 230px;
 	position: absolute;
 }
 
