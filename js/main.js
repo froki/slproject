@@ -23,6 +23,9 @@ if (response.indexOf(lookUp) != -1)
 
 
 stations = {
-	fridhemsplan: { x: 394, y: 321 },
-	telefonplan: { x: 331, y: 475 }
+	fridhemsplan: { x: 133, y: 321 },
+	telefonplan: { x: 1331, y: 1955 }
+	midsommarkransen: { x: 1511, y: 1545 }
+
+	
 }
