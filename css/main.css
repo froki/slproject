@@ -1,10 +1,19 @@
-.pin{
-	width: 120px;
-	height: 120px;
-	position: absolute;
+img{
+	width:75%;
 }
+
 
 #map {
 	position: relative;
 }
+
+
+
+.pin {
+	width:5%;
+	position: absolute;
+}
+
+
+
 
