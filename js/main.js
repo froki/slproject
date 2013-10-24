@@ -14,7 +14,8 @@ for ( var i = 0; i < data.length; i++){
 
 if (response.indexOf(lookUp) != -1)
 {
-  console.log("Works");
+ console.log("Works");
+
 }
 
 }}
