@@ -1,8 +1,3 @@
-img{
-	width:75%;
-}
-
-
 #map {
 	position: relative;
 }
@@ -14,6 +9,8 @@ img{
 	position: absolute;
 }
 
-
-
-
+.pin img {
+	position: absolute;
+	left: -50%;
+	bottom: 100%;
+}
