@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var url ='https://free-ec2.scraperwiki.com/c4uem5y/b800cc5ce96d4be/sql/?q=select%20%0A%09id_str%2C%0A%09tweet_url%2C%0A%20%20%20%20text%2C%0A%20%20%20%20tweet_url%2C%0A%20%20%20%20created_at%0Afrom%20tweets%0A--%20where%20created_at%20%3E%20%0Aorder%20by%20created_at%0A'
+	var url ='https://free-ec2.scraperwiki.com/c4uem5y/b800cc5ce96d4be/sql/?q=select200A09id_str2C0A09tweet_url2C0A%20%20%20%20text%2C%0A%20%20%20%20tweet_url%2C%0A%20%20%20%20created_at%0Afrom%20tweets%0A--%20where%20created_at%20%3E%20%0Aorder%20by%20created_at%0A'
 	$.getJSON(url, processTweets);
 
 
@@ -71,6 +71,62 @@ stations = {
 	Kungsträdgården: { x: 86.9, y: 49.8 },
 
 
+ //Green line
+	Hässeblygård { x: 3.7, y: 45.8 },
+	Johannelund {x: 9.8, y: 45.8 },
+	Vällingby {x: 13.5, y: 45.8 },
+	Råcksta {x: 16.9, y: 45.8  }
+	Blackeberg {x: 20,7, y: 45.8 },
+	Islandstorget {x: 24.2, y: 45.8 },
+	Ängbyplan {x: 27.7, y: 45.8 },
+	Åkeshov {x: 30.6, y: 44.9 },
+	Brommaplan {x: 34.7, y: 45.8 },
+	Abrahamsberg {x: 38.3, y: 45.8 },
+	Store mossen {x: 41.5, y: 45.8 },
+	Alvik {x: 42.6, y: 43.3 }, 
+	Kristineberg {x: 48.7, y: 45.8 }, 
+	Thorildsplan {x: 52.3, y: 45.8 }, 
+	Fridhemsplan {x: 55.4, y: 44.4 }, 
+	S.t Eriksplan {x: 58.9, y: 43.3 }, 
+	Odenplan {x:62.1, y: 43.4 }, 
+	Rådmansgatan {x: 65.0, y: 43.4 }, 
+	Hötorget {x: 68.3, y: 43.3 }, 
+	T-centralen {x: 73.9, y: 50.0 }, 
+	Slussen {x: 74.9, y: 57.7 }, 
+	Medborgarplatsen {x: 75.7, y: 61.2}, 
+	Skanstull {x: 75.7, y: 64.4 }, 
+	Gullmarsplan {x: 74.8, y: 62.7 }, 
+	Gamla stan {x: 73.9, y: 54.0 }, 
+
+	
+//Farsta strand
+	Skärmabrink {x: 75.4, y: 70.2 }, 
+	Blåsut {x: 74.9, y: 76.3}, 
+	Sandsborg {x: 74.9 y: 79.4}, 
+	Skogskyrkogården {x: 74.9, y: 82.5}, 
+	Tallkrogen {x: 74.9, y: 85.6}, 
+	Gubbängen {x: 74.9, y: 88.6}, 
+	Hökarängen {x: 74.9, y: 92.0} , 
+	Farsta {x: 74.9, y: 94.8 }, 
+	Farsta strand {x: 74.9, y: 96.8},
+
+	//Skarpnäck
+	Hammarbyhöjden {x: 79.5, y: 74.4}, 
+	Björkhagen {x: 84.2, y: 79.8},
+	Kärrtorp {x: 89.0, y: 85.5 }, 
+	Skarpnäck {x: 98.6, y: 96.9 }, 
+	
+
+ //Hagsätra
+	Globen {x: 60.3, y: 72.8 }, 
+	Enskede gård {x: 67.0, y:75.5 }, 
+	Sockenplan {x: 64.5, y: 78.5 }, 
+	Svedmyra {x: 62.0, y: 81.4}, 
+	Stureby {x: 59.5, y: 84.4 }, 
+	Bandhagen {x: 56.8 , y: 87.5 }, 
+	Högdalen {x: 54.1, y: 90.7 }, 
+	Rågsved {x: 51.6 y: 93.5}, 
+	Hagsätra {x: 48.7, y: 97.0}, 
 
 
 
@@ -78,4 +134,9 @@ stations = {
 
 
 
-}
+
+
+
+
+
+
