@@ -59,15 +59,15 @@ stations = {
     Mörby: { x:71.8 , y: 12.9 },
 
 
-Karlaplan: { x: 80.9, y: 30.4 },
-Gärdet: { x: 88.8, y: 21.5 },
-Ropsten: { x: 96.0, y: 12.5 },
-
-Midsommarkransen: { x: 44.4, y: 66.9 },
-Telefonplan: { x: 37.9, y: 74.9 },
-Hägerstensåsen: { x: 30.6, y: 83.1 },
-Västertorp: { x: 24.3, y: 90.8 },
-Fruängen: { x: 19.3, y: 96.9 },
+	Karlaplan: { x: 80.9, y: 30.4 },
+	Gärdet: { x: 88.8, y: 21.5 },
+	Ropsten: { x: 96.0, y: 12.5 },
+	
+	Midsommarkransen: { x: 44.4, y: 66.9 },
+	Telefonplan: { x: 37.9, y: 74.9 },
+	Hägerstensåsen: { x: 30.6, y: 83.1 },
+	Västertorp: { x: 24.3, y: 90.8 },
+	Fruängen: { x: 19.3, y: 96.9 },
 
  //Hjulsta line
 	Hjulsta: { x: 11.9, y: 13.2 },
