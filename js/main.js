@@ -75,6 +75,7 @@ stations = {
 	rissne: { x: 19.1, y: 21.5 },
 	duvbo: { x: 21.7, y: 24.6 },
 	sundbyberg: { x: 24.0, y: 27.4 },
+	sumpan: { x: 24.0, y: 27.4 },
 	vreten: { x: 26.6, y: 30.5 },
 	huvudsta: { x: 28.9, y: 32.9 },
 //Akalla line
@@ -92,10 +93,11 @@ stations = {
 	stadshagen: { x: 49.8, y: 38.0 },
 	rådhuset: { x: 64.2, y: 49.2 },
 	kungsträdgården: { x: 86.9, y: 49.8 },
+	kungsan: { x: 86.9, y: 49.8 },
 
 
  //Green line
-	hässeblygård: { x: 3.7, y: 45.8 },
+	hässelbygård: { x: 3.7, y: 45.8 },
 	johannelund: {x: 9.8, y: 45.8 },
 	vällingby: {x: 13.5, y: 45.8 },
 	råcksta: {x: 16.9, y: 45.8 },
@@ -110,11 +112,13 @@ stations = {
 	kristineberg: {x: 48.7, y: 45.8 }, 
 	thorildsplan: {x: 52.3, y: 45.8 }, 
 	fridhemsplan: {x: 55.4, y: 44.4 }, 
-	stEriksplan: {x: 58.9, y: 43.3 }, 
+	steriksplan: {x: 58.9, y: 43.3 }, 
 	odenplan: {x:62.1, y: 43.4 }, 
 	rådmansgatan: {x: 65.0, y: 43.4 }, 
 	hötorget: {x: 68.3, y: 43.3 }, 
-	centralen: {x: 73.9, y: 50.0 }, 
+	centralen: {x: 73.9, y: 50.0 },
+	tcen: {x: 73.9, y: 50.0 },
+	tcentralen: {x: 73.9, y: 50.0 },
 	slussen: {x: 74.9, y: 57.7 }, 
 	medborgarplatsen: {x: 75.7, y: 61.2}, 
 	skanstull: {x: 75.7, y: 64.4 }, 
@@ -134,7 +138,7 @@ stations = {
 	
 
 	//Skarpnäck
-	fammarbyhöjden: {x: 79.5, y: 74.4}, 
+	hammarbyhöjden: {x: 79.5, y: 74.4}, 
 	björkhagen: {x: 84.2, y: 79.8},
 	kärrtorp: {x: 89.0, y: 85.5 }, 
 	skarpnäck: {x: 98.6, y: 96.9 }, 
