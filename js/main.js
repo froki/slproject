@@ -1,15 +1,32 @@
 $(document).ready(function() {
-	var url ='http://slapp.herokuapp.com'
-	$.getJSON(url, processTweets);
 
+	var url ='http://slapp.herokuapp.com';
+	var threshold = 30 * 60 * 1000;  // 20 minutes (20 000 milliseconds )
+
+
+	function getTweets() {
+		console.log("Fetching new tweets");
+		$.getJSON(url, processTweets);
+	}
+
+	getTweets();
+	setInterval(getTweets, 60000);
 
 	function processTweets(data) {
-		for (var i = 0; i < data.length; i++){
-			response = data[i].text; 
-			response = response.toLowerCase();
+		$(".pin").remove();
+		var tweets = data.statuses;
+		for (var i = 0; i < tweets.length; i++){
+			var tweet = tweets[i];
+			var text = tweets[i].text.toLowerCase(); 
+			var created_at = new Date(tweets[i].created_at);
+			if ((new Date() - created_at) > threshold) {
+				// If a tweet is older than 20 minutes, stop looping
+				// over the tweets.
+				break;
+			}
 
 			for (var station in stations) {
-				if (response.indexOf(station) != -1) {
+				if (text.indexOf(station) != -1) {
 					showMarker(station);
 				}
 			}
