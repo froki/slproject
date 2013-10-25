@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var url ='https://free-ec2.scraperwiki.com/bjp3pty/5108654d5c234a4/sql/?q=select%20%0A%09created_at%2C%0A%20%20%20%20text%0Afrom%20tweets%0A--%20where%20created_at%20%3E%20%0Alimit%2010%0A'
+	var url ='http://slapp.herokuapp.com'
 	$.getJSON(url, processTweets);
 
 

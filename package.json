@@ -1,0 +1,15 @@
+{
+  "name": "TwitterScraper",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node scraper.js"
+  },
+  "dependencies": {
+    "express": "3.1.1",
+    "twit": "1.1.11"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
