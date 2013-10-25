@@ -1,5 +1,7 @@
 #map {
 	position: relative;
+		width:70%;
+
 }
 
 
@@ -14,3 +16,8 @@
 	left: -50%;
 	bottom: 100%;
 }
+
+
+
+
+
