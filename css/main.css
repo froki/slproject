@@ -9,6 +9,7 @@
 .pin {
 	width:5%;
 	position: absolute;
+	cursor: pointer;
 }
 
 .pin img {
@@ -16,6 +17,7 @@
 	left: -50%;
 	bottom: 100%;
 }
+
 
 
 

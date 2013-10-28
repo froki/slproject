@@ -40,7 +40,7 @@ function showMarker(station) {
 	pin.addClass("pin");
 	pin.css("left", stations[station].x + "%");
 	pin.css("top", stations[station].y + "%");
-	pin.append("<img src='SLmappin.png'>")
+	pin.append('<a data-toggle="modal"  href="#twitterModal"><img src="SLmappin.png"></a>');
 	pin.appendTo("#map");
 }
 
