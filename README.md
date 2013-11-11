@@ -16,6 +16,8 @@ to take the idea further and develop it. </p>
 danijela.froki@hyperisland.se<br>
 alexander.stangel@hyperisland.se<br>
 diego.fria@hyperisland.se<br>
+<br>
+<br>
 
 
 Link to the app: http://slapp.nu/ 
