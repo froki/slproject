@@ -1,7 +1,6 @@
-
 =========
 
-SLProject
+<h1>SLProject</h2>
 
 SLapp allows users to visualise the location of Stockholm subway system's (SL) ticket controllers in real time. 
 It collects data from @SLbiljett Twitter feed where users update on the current/latest SL controllers' location
